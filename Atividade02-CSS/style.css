@@ -1,3 +1,4 @@
+
 /*
 #02520f
 #666
@@ -11,6 +12,7 @@ font-family: 'Montserrat', sans-serif;
 header{
     height: 15vh;
     font-size: xx-large;
+    text-align: center;
 }
 
 main{
@@ -25,6 +27,12 @@ footer{
     width: 20%;
 }
 
+th{  color:#fff;
+    background-color: #02520f;
+font-family: sans-serif ;
+}
+
+
 table{
     border-collapse: collapse;
     width: 80%;
@@ -36,9 +44,13 @@ table{
     width: 10%;
     font-size: x-large;
     font-weight: 800;
+    text-align: center;
+    border: 1px solid white;
+    color:#fff;
 }
 
 .pontos{
+    text-align: center;
     font-size: x-large;
     width: 15%;
 }
@@ -49,9 +61,14 @@ table{
 }
 
 .time{
+   
     font-size: xx-large;
 }
 
 .time img{
     height: 40px;
 }
+
+    
+
+
