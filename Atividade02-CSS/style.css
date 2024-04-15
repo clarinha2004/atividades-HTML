@@ -8,36 +8,89 @@
 
 font-family: 'Montserrat', sans-serif;
 */
-
+body{
+    font-family:  'Montserrat', sans-serif;
+    padding: 0%;
+    margin: 0%;
+  
+}
+thead{
+    height: 5vh;
+    background-color: rgb(5, 77, 5);
+}
 header{
-    height: 15vh;
+    height: 10vh;
+    width: 100%;
     font-size: xx-large;
     text-align: center;
+    box-shadow: -5px 10px 5px -5px #0000003d;
+    padding-top: 3%; 
+    
+}
+.texto{
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
+@keyframes aparecer{
+    from{
+        opacity: 0; 
+       transform:translateY(50px)
+       }
+
+     to{ 
+       opacity: 1;  
+}
+}
+th{
+    color: white;
 }
 
 main{
     height: 75vh;
+    display: flex;
+    justify-content: center;
 }
-
 footer{
-    height: 10vh;
+    
+    clear: both; 
+    text-align: center; 
+    background-color: #f2f2f2; 
+    padding: 15% 0;
+  
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    font-size: 25px;
+    gap: 10%;
+    margin-top: 2%;
+
 }
 
 .group-footer{
-    width: 20%;
+    margin: 20px auto;
+    width: 60px;
+    height: 60px;
+    background-color: #67646b;
+    border-radius: 50px 50px 50px 50px;
 }
 
-th{  color:#fff;
-    background-color: #02520f;
-font-family: sans-serif ;
+.campo{
+    margin-left: 2%;
 }
 
+.group-footer:hover{
+    text-align: center; 
+    background-color: green;
+}
 
 table{
     border-collapse: collapse;
     width: 80%;
-    margin: 20px;
+    margin: 20px auto;
+
+    
 }
+
 
 .ranking{
     background-color: #666;
@@ -45,30 +98,34 @@ table{
     font-size: x-large;
     font-weight: 800;
     text-align: center;
-    border: 1px solid white;
-    color:#fff;
+    color: white;
+    border: 1px solid #ffff;
+    padding: 15px 0;
 }
-
 .pontos{
-    text-align: center;
     font-size: x-large;
     width: 15%;
+    text-align: center;
+   
 }
 
 .img-circle{
     width: 50px;
     height: 50px;
+    padding-left: 5%;
+   
+}
+.time:hover{
+    background-color: #ada7a7;
 }
 
 .time{
-   
     font-size: xx-large;
+   
+  
 }
 
 .time img{
     height: 40px;
+    padding-right: 5%;
 }
-
-    
-
-
